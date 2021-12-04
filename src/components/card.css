@@ -1,0 +1,100 @@
+/* .card {
+  height: 250px;
+  display: flex;
+
+  grid-gap: 20px;
+  align-items: center;
+  width: 600px;
+  border: 2px solid white;
+  border-radius: 180px;
+  margin-bottom: 25px;
+}
+.card > img {
+  border-radius: 180px;
+  border: 6px solid gray;
+  max-width: 50%;
+  height: 200px;
+}
+.card .text {
+  padding: 20px;
+  color: aliceblue;
+}
+.buttons {
+  margin-left: 100px;
+  width: 90px;
+  height: 50px;
+  cursor: pointer;
+  float: right;
+  display: block;
+}
+.buttons .btn {
+  color: white;
+  background-color: green;
+  padding: 10px;
+  border-radius: 80px;
+}
+
+.fav {
+  padding-top: 25px;
+ 
+  margin: 0 auto;
+  display: block;
+  color: red;
+}
+.btn-more {
+  background-color: white;
+  color: black;
+  width: 70px;
+  border-radius: 20px;
+}
+.data {
+  margin-top: 10%;
+  color: white;
+}
+.data > h1 {
+  color: crimson;
+  text-transform: uppercase;
+  text-decoration: underline;
+} */
+
+.media {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  padding: 5px;
+  margin: 25px;
+  background-color: #34a0a4;
+  border-radius: 22px;
+  position: relative;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.media:hover {
+  background-color: #80ed99;
+  color: black;
+}
+
+@media (max-width: 550px) {
+  .media {
+    width: 46%;
+  }
+}
+
+.poster {
+  border-radius: 40px;
+  padding: 8px;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  font-size: 17px;
+  padding: 8px 0;
+}
+
+.subTitle {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3px;
+  padding: 0 2px;
+}
