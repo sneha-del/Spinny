@@ -58,20 +58,21 @@
 } */
 
 .media {
+  color: black;
   display: flex;
   flex-direction: column;
   width: 200px;
   padding: 5px;
   margin: 25px;
-  background-color: #34a0a4;
+  background-color: white;
   border-radius: 22px;
   position: relative;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .media:hover {
-  background-color: #80ed99;
-  color: black;
+  background-color: #90e0ef;
+  color: #1d3557;
 }
 
 @media (max-width: 550px) {

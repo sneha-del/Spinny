@@ -25,6 +25,7 @@ const Homepage = () => {
     <div className="Homepage">
       <Search input={input} handle={handle} />
       <Result superData={superData} />
+      {/* <button onClick={handle}>Go</button> */}
     </div>
   );
 };

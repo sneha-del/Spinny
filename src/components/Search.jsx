@@ -1,6 +1,7 @@
 import React from "react";
 import "./search.css";
 import { FcFilmReel } from "react-icons/fc";
+
 function Search(props) {
   // const {} = props;
   console.log(props);
@@ -21,6 +22,7 @@ function Search(props) {
           size="100px"
           style={{ float: "right", marginTop: "-150px" }}
         />
+        {/* <button>Go</button> */}
         {/* <button onClick={apiGet}>Fetch API</button> */}
       </div>
     </div>

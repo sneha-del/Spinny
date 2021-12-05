@@ -5,10 +5,11 @@
   padding: 20px;
   justify-content: space-around;
   flex-wrap: wrap;
+  position: relative;
 }
 
 .btn-load {
-  background-color: greenyellow;
+  background-color: #003566;
   height: 200px;
   /* margin-top: 0; */
   margin-left: 500px;
@@ -16,6 +17,7 @@
   border-radius: 80px;
   margin-bottom: 20px;
   height: 40px;
+  color: white;
   font-weight: bold;
   width: 500px;
 }
